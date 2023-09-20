@@ -1,0 +1,18 @@
+.swiper-item{
+    display:flex !important;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border:1px solid #eee;
+    img{
+        width: 100px;
+    }
+
+}
+
+.alice-carousel__stage-item{
+    margin-right:10px !important;
+}
+
+

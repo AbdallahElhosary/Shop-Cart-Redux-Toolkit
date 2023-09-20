@@ -1,0 +1,37 @@
+.cart-item{
+    display: flex;
+    margin: 10px 0;
+    background-color: #eee;
+    padding: 20px;
+    gap: 10px;
+    button{
+        img{
+            width: 100px;
+        }
+    }
+    .cart-item-text{
+        .manage-price{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .quantity{
+                background-color: #222;
+                color: white;
+                width: fit-content;
+                border-radius: 10px;
+                margin: 10px 0;
+                >*{
+                    padding: 10px 15px;
+                }
+                button{
+                    border-radius: inherit;
+                    transition: 0.5s;
+                    &:hover{
+
+                        background-color: #666;
+                    }
+                }
+            }
+        }
+    }
+}
